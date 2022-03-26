@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+body {
+  background-color: #464F71;
+  font-family: 'Lato', cursive;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  text-align: center;
+  font-size: 35px;
+  height: 100%;
+}
+h1 {
+  color: lightgray;
+  text-align:center;
+}
+h2 {
+  color: silver;
+  text-align:center;
+}
+a {
+  color: #129797;
+  text-align:center;
+  text-decoration: none
+}
+a:hover {
+  color: #00c5c5;
+  
+}
+p {
+  color: #a8d4d4;
+  text-align:center;
+}
+blank {
+  color: #a9d1ec;
+  text-align:center;
+}
+.klasaimg{
+  height: 10%;
+  width: 10%;
+}
+.klasaimg:hover{
+  height: 15%;
+  width: 15%;
+}
+li{
+  color: #a8d4d4;
+  text-align:center;
+}
+header{
+  text-align: right;
+  font-family: 'Lato', sans-serif;
+  background-color: #464F71;
+  position: sticky;
+}
+button {
+  z-index: 2;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 15px #00bdc5;
+  cursor: pointer;
+  font-size: 30px;
+  background-color: #00bdc5;
+  color: #129797;
+  font-family: 'Lato', sans-serif;
+}
+button:hover {
+  z-index: 2;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 5px;
+ /* box-shadow: 0 0 15px #00959b;*/
+  font-size: 35px;
+  background-color: #00959b;
+  color: #00c5c5;
+  font-family: 'Lato', sans-serif;
+  opacity: 0.5;
+}
+hr{
+  border: none;
+  border-bottom: 5px dotted #00bdc5;
+}
+.line{
+  border: none;
+  border-bottom: 5px double #00bdc5;
+}
+.wer{
+  height: 50px;
+  width: 50px;
+}
+iframe{
+  border: none;
+}
+footer{
+    background-color: darkblue;
+}
